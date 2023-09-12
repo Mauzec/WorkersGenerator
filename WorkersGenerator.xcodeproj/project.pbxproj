@@ -10,7 +10,6 @@
 		551B7E262AA9D29500410CD2 /* AddressEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551B7E252AA9D29500410CD2 /* AddressEditView.swift */; };
 		5527C92A2AA8CC5300D532B8 /* FullNameEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5527C9292AA8CC5300D532B8 /* FullNameEditorView.swift */; };
 		554F9F1B2AADD72C00013CEF /* xlsxwriter in Frameworks */ = {isa = PBXBuildFile; productRef = 554F9F1A2AADD72C00013CEF /* xlsxwriter */; };
-		554F9F1E2AADED9C00013CEF /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 554F9F1D2AADED9C00013CEF /* PythonKit */; };
 		556F2A892AA8EB7900AB0D37 /* PhoneProviders.plist in Resources */ = {isa = PBXBuildFile; fileRef = 556F2A882AA8EB7900AB0D37 /* PhoneProviders.plist */; };
 		556F2A8B2AA90D4400AB0D37 /* PhoneEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F2A8A2AA90D4400AB0D37 /* PhoneEditorView.swift */; };
 		556F2A8D2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F2A8C2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift */; };
@@ -92,7 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				554F9F1B2AADD72C00013CEF /* xlsxwriter in Frameworks */,
-				554F9F1E2AADED9C00013CEF /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +237,6 @@
 			name = WorkersGenerator;
 			packageProductDependencies = (
 				554F9F1A2AADD72C00013CEF /* xlsxwriter */,
-				554F9F1D2AADED9C00013CEF /* PythonKit */,
 			);
 			productName = WorkersGenerator;
 			productReference = 55F289E52AA8A67D00121C18 /* WorkersGenerator.app */;
@@ -315,7 +312,6 @@
 			mainGroup = 55F289DC2AA8A67C00121C18;
 			packageReferences = (
 				554F9F192AADD72C00013CEF /* XCRemoteSwiftPackageReference "xlsxwriter" */,
-				554F9F1C2AADED9C00013CEF /* XCRemoteSwiftPackageReference "PythonKit" */,
 			);
 			productRefGroup = 55F289E62AA8A67D00121C18 /* Products */;
 			projectDirPath = "";
@@ -726,14 +722,6 @@
 				kind = branch;
 			};
 		};
-		554F9F1C2AADED9C00013CEF /* XCRemoteSwiftPackageReference "PythonKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pvieito/PythonKit.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -741,11 +729,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 554F9F192AADD72C00013CEF /* XCRemoteSwiftPackageReference "xlsxwriter" */;
 			productName = xlsxwriter;
-		};
-		554F9F1D2AADED9C00013CEF /* PythonKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 554F9F1C2AADED9C00013CEF /* XCRemoteSwiftPackageReference "PythonKit" */;
-			productName = PythonKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
