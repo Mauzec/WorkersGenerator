@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "libxlsxwriter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jmcnamara/libxlsxwriter",
+      "state" : {
+        "branch" : "main",
+        "revision" : "44e72c5862f9d549453a4ff6e8ceab0da19705e5"
+      }
+    },
+    {
+      "identity" : "pythonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pvieito/PythonKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "060e1c8b0d14e4d241b3623fdbe83d0e3c81a993"
+      }
+    },
+    {
+      "identity" : "xlsxwriter.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/damuellen/xlsxwriter.swift",
+      "state" : {
+        "branch" : "SPM",
+        "revision" : "7fae2c5584cb0612a9cd05b0da100c29ddef8c61"
+      }
+    }
+  ],
+  "version" : 2
+}

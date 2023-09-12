@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551B7E262AA9D29500410CD2 /* AddressEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551B7E252AA9D29500410CD2 /* AddressEditView.swift */; };
+		5527C92A2AA8CC5300D532B8 /* FullNameEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5527C9292AA8CC5300D532B8 /* FullNameEditorView.swift */; };
+		554F9F1B2AADD72C00013CEF /* xlsxwriter in Frameworks */ = {isa = PBXBuildFile; productRef = 554F9F1A2AADD72C00013CEF /* xlsxwriter */; };
+		554F9F1E2AADED9C00013CEF /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 554F9F1D2AADED9C00013CEF /* PythonKit */; };
+		556F2A892AA8EB7900AB0D37 /* PhoneProviders.plist in Resources */ = {isa = PBXBuildFile; fileRef = 556F2A882AA8EB7900AB0D37 /* PhoneProviders.plist */; };
+		556F2A8B2AA90D4400AB0D37 /* PhoneEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F2A8A2AA90D4400AB0D37 /* PhoneEditorView.swift */; };
+		556F2A8D2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F2A8C2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift */; };
+		5588BF312AAB8BB200AE6A48 /* surnamesMale.json in Resources */ = {isa = PBXBuildFile; fileRef = 555B84E82AAB87B4007B85A6 /* surnamesMale.json */; };
+		5588BF322AAB8BB200AE6A48 /* namesMale.json in Resources */ = {isa = PBXBuildFile; fileRef = 5588BF302AAB8B9F00AE6A48 /* namesMale.json */; };
+		5588BF352AAB8D0700AE6A48 /* namesFemale.json in Resources */ = {isa = PBXBuildFile; fileRef = 5588BF332AAB8C5500AE6A48 /* namesFemale.json */; };
+		5588BF372AAB95AC00AE6A48 /* ProfessionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5588BF362AAB95AC00AE6A48 /* ProfessionEditorView.swift */; };
+		5588BF392AAB95ED00AE6A48 /* Professions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5588BF382AAB95ED00AE6A48 /* Professions.plist */; };
+		55B79EE32AAB9F5400C38B91 /* EarnEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B79EE22AAB9F5300C38B91 /* EarnEditorView.swift */; };
+		55B79EE52AABA6AF00C38B91 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B79EE42AABA6AF00C38B91 /* Generator.swift */; };
+		55B79EEF2AABB38300C38B91 /* surnamesFemale.json in Resources */ = {isa = PBXBuildFile; fileRef = 55B79EEE2AABB38300C38B91 /* surnamesFemale.json */; };
+		55B79EF12AABBE2C00C38B91 /* PhoneCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B79EF02AABBE2C00C38B91 /* PhoneCodes.plist */; };
 		55F289E92AA8A67D00121C18 /* WorkersGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F289E82AA8A67D00121C18 /* WorkersGeneratorApp.swift */; };
-		55F289EB2AA8A67D00121C18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F289EA2AA8A67D00121C18 /* ContentView.swift */; };
+		55F289EB2AA8A67D00121C18 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F289EA2AA8A67D00121C18 /* EditorView.swift */; };
 		55F289ED2AA8A68000121C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F289EC2AA8A68000121C18 /* Assets.xcassets */; };
 		55F289F02AA8A68000121C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F289EF2AA8A68000121C18 /* Preview Assets.xcassets */; };
 		55F289FA2AA8A68000121C18 /* WorkersGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F289F92AA8A68000121C18 /* WorkersGeneratorTests.swift */; };
 		55F28A042AA8A68000121C18 /* WorkersGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F28A032AA8A68000121C18 /* WorkersGeneratorUITests.swift */; };
 		55F28A062AA8A68000121C18 /* WorkersGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F28A052AA8A68000121C18 /* WorkersGeneratorUITestsLaunchTests.swift */; };
+		55F28A152AA8A94100121C18 /* Settingor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F28A142AA8A94100121C18 /* Settingor.swift */; };
+		55FF0FDB2AAA548200108571 /* addresses.json in Resources */ = {isa = PBXBuildFile; fileRef = 55FF0FDA2AAA548200108571 /* addresses.json */; };
+		55FF0FDD2AAA54C400108571 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF0FDC2AAA54C400108571 /* PersonData.swift */; };
+		55FF0FDF2AAA55A400108571 /* PersonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF0FDE2AAA55A400108571 /* PersonLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		551B7E252AA9D29500410CD2 /* AddressEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressEditView.swift; sourceTree = "<group>"; };
+		5527C9292AA8CC5300D532B8 /* FullNameEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNameEditorView.swift; sourceTree = "<group>"; };
+		554F9F172AADD10800013CEF /* WorkersGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkersGenerator.entitlements; sourceTree = "<group>"; };
+		554F9F182AADD28800013CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		555B84E82AAB87B4007B85A6 /* surnamesMale.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = surnamesMale.json; sourceTree = "<group>"; };
+		556F2A882AA8EB7900AB0D37 /* PhoneProviders.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneProviders.plist; sourceTree = "<group>"; };
+		556F2A8A2AA90D4400AB0D37 /* PhoneEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneEditorView.swift; sourceTree = "<group>"; };
+		556F2A8C2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		5588BF302AAB8B9F00AE6A48 /* namesMale.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = namesMale.json; sourceTree = "<group>"; };
+		5588BF332AAB8C5500AE6A48 /* namesFemale.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = namesFemale.json; sourceTree = "<group>"; };
+		5588BF362AAB95AC00AE6A48 /* ProfessionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionEditorView.swift; sourceTree = "<group>"; };
+		5588BF382AAB95ED00AE6A48 /* Professions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Professions.plist; sourceTree = "<group>"; };
+		55B79EE22AAB9F5300C38B91 /* EarnEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnEditorView.swift; sourceTree = "<group>"; };
+		55B79EE42AABA6AF00C38B91 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		55B79EEE2AABB38300C38B91 /* surnamesFemale.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = surnamesFemale.json; sourceTree = "<group>"; };
+		55B79EF02AABBE2C00C38B91 /* PhoneCodes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneCodes.plist; sourceTree = "<group>"; };
 		55F289E52AA8A67D00121C18 /* WorkersGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkersGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F289E82AA8A67D00121C18 /* WorkersGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersGeneratorApp.swift; sourceTree = "<group>"; };
-		55F289EA2AA8A67D00121C18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55F289EA2AA8A67D00121C18 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		55F289EC2AA8A68000121C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F289EF2AA8A68000121C18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55F289F52AA8A68000121C18 /* WorkersGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkersGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +80,10 @@
 		55F289FF2AA8A68000121C18 /* WorkersGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkersGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F28A032AA8A68000121C18 /* WorkersGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersGeneratorUITests.swift; sourceTree = "<group>"; };
 		55F28A052AA8A68000121C18 /* WorkersGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55F28A142AA8A94100121C18 /* Settingor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingor.swift; sourceTree = "<group>"; };
+		55FF0FDA2AAA548200108571 /* addresses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addresses.json; sourceTree = "<group>"; };
+		55FF0FDC2AAA54C400108571 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		55FF0FDE2AAA55A400108571 /* PersonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554F9F1B2AADD72C00013CEF /* xlsxwriter in Frameworks */,
+				554F9F1E2AADED9C00013CEF /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +113,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556F2A852AA8EAFD00AB0D37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				556F2A882AA8EB7900AB0D37 /* PhoneProviders.plist */,
+				55FF0FDA2AAA548200108571 /* addresses.json */,
+				555B84E82AAB87B4007B85A6 /* surnamesMale.json */,
+				5588BF302AAB8B9F00AE6A48 /* namesMale.json */,
+				55B79EEE2AABB38300C38B91 /* surnamesFemale.json */,
+				5588BF332AAB8C5500AE6A48 /* namesFemale.json */,
+				5588BF382AAB95ED00AE6A48 /* Professions.plist */,
+				55B79EF02AABBE2C00C38B91 /* PhoneCodes.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55EB85E72AACC02300F5F6DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55F289DC2AA8A67C00121C18 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +142,7 @@
 				55F289F82AA8A68000121C18 /* WorkersGeneratorTests */,
 				55F28A022AA8A68000121C18 /* WorkersGeneratorUITests */,
 				55F289E62AA8A67D00121C18 /* Products */,
+				55EB85E72AACC02300F5F6DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +159,12 @@
 		55F289E72AA8A67D00121C18 /* WorkersGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				554F9F182AADD28800013CEF /* Info.plist */,
+				554F9F172AADD10800013CEF /* WorkersGenerator.entitlements */,
+				556F2A852AA8EAFD00AB0D37 /* Resources */,
+				55F28A132AA8A93000121C18 /* Models */,
+				55F28A122AA8A69600121C18 /* Views */,
 				55F289E82AA8A67D00121C18 /* WorkersGeneratorApp.swift */,
-				55F289EA2AA8A67D00121C18 /* ContentView.swift */,
 				55F289EC2AA8A68000121C18 /* Assets.xcassets */,
 				55F289EE2AA8A68000121C18 /* Preview Content */,
 			);
@@ -127,6 +196,31 @@
 			path = WorkersGeneratorUITests;
 			sourceTree = "<group>";
 		};
+		55F28A122AA8A69600121C18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55F289EA2AA8A67D00121C18 /* EditorView.swift */,
+				5527C9292AA8CC5300D532B8 /* FullNameEditorView.swift */,
+				556F2A8A2AA90D4400AB0D37 /* PhoneEditorView.swift */,
+				556F2A8C2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift */,
+				551B7E252AA9D29500410CD2 /* AddressEditView.swift */,
+				5588BF362AAB95AC00AE6A48 /* ProfessionEditorView.swift */,
+				55B79EE22AAB9F5300C38B91 /* EarnEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55F28A132AA8A93000121C18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55F28A142AA8A94100121C18 /* Settingor.swift */,
+				55FF0FDC2AAA54C400108571 /* PersonData.swift */,
+				55FF0FDE2AAA55A400108571 /* PersonLoader.swift */,
+				55B79EE42AABA6AF00C38B91 /* Generator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +237,10 @@
 			dependencies = (
 			);
 			name = WorkersGenerator;
+			packageProductDependencies = (
+				554F9F1A2AADD72C00013CEF /* xlsxwriter */,
+				554F9F1D2AADED9C00013CEF /* PythonKit */,
+			);
 			productName = WorkersGenerator;
 			productReference = 55F289E52AA8A67D00121C18 /* WorkersGenerator.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +313,10 @@
 				Base,
 			);
 			mainGroup = 55F289DC2AA8A67C00121C18;
+			packageReferences = (
+				554F9F192AADD72C00013CEF /* XCRemoteSwiftPackageReference "xlsxwriter" */,
+				554F9F1C2AADED9C00013CEF /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = 55F289E62AA8A67D00121C18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +333,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B79EF12AABBE2C00C38B91 /* PhoneCodes.plist in Resources */,
+				55B79EEF2AABB38300C38B91 /* surnamesFemale.json in Resources */,
+				5588BF352AAB8D0700AE6A48 /* namesFemale.json in Resources */,
+				5588BF312AAB8BB200AE6A48 /* surnamesMale.json in Resources */,
+				5588BF322AAB8BB200AE6A48 /* namesMale.json in Resources */,
+				55FF0FDB2AAA548200108571 /* addresses.json in Resources */,
 				55F289F02AA8A68000121C18 /* Preview Assets.xcassets in Resources */,
 				55F289ED2AA8A68000121C18 /* Assets.xcassets in Resources */,
+				5588BF392AAB95ED00AE6A48 /* Professions.plist in Resources */,
+				556F2A892AA8EB7900AB0D37 /* PhoneProviders.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +367,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F289EB2AA8A67D00121C18 /* ContentView.swift in Sources */,
+				55F289EB2AA8A67D00121C18 /* EditorView.swift in Sources */,
+				5588BF372AAB95AC00AE6A48 /* ProfessionEditorView.swift in Sources */,
+				556F2A8D2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift in Sources */,
+				55FF0FDF2AAA55A400108571 /* PersonLoader.swift in Sources */,
+				55F28A152AA8A94100121C18 /* Settingor.swift in Sources */,
+				5527C92A2AA8CC5300D532B8 /* FullNameEditorView.swift in Sources */,
+				55FF0FDD2AAA54C400108571 /* PersonData.swift in Sources */,
+				556F2A8B2AA90D4400AB0D37 /* PhoneEditorView.swift in Sources */,
+				551B7E262AA9D29500410CD2 /* AddressEditView.swift in Sources */,
+				55B79EE52AABA6AF00C38B91 /* Generator.swift in Sources */,
+				55B79EE32AAB9F5400C38B91 /* EarnEditorView.swift in Sources */,
 				55F289E92AA8A67D00121C18 /* WorkersGeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,12 +539,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorkersGenerator/WorkersGenerator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WorkersGenerator/Preview Content\"";
 				DEVELOPMENT_TEAM = X3Y69D3VMD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkersGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +560,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Mauzec.WorkersGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +572,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorkersGenerator/WorkersGenerator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WorkersGenerator/Preview Content\"";
 				DEVELOPMENT_TEAM = X3Y69D3VMD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkersGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +593,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Mauzec.WorkersGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,6 +716,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		554F9F192AADD72C00013CEF /* XCRemoteSwiftPackageReference "xlsxwriter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/damuellen/xlsxwriter.swift";
+			requirement = {
+				branch = SPM;
+				kind = branch;
+			};
+		};
+		554F9F1C2AADED9C00013CEF /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		554F9F1A2AADD72C00013CEF /* xlsxwriter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 554F9F192AADD72C00013CEF /* XCRemoteSwiftPackageReference "xlsxwriter" */;
+			productName = xlsxwriter;
+		};
+		554F9F1D2AADED9C00013CEF /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 554F9F1C2AADED9C00013CEF /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55F289DD2AA8A67C00121C18 /* Project object */;
 }

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "711B5E60-26BB-4F8D-AD6C-394D6D500CC7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55F32CB1-D81C-4D8E-92DB-37ED5287B786"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/Settingor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "loadPlistArray()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC9BA619-8287-4203-8CA6-B3F9898D59D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/AddressLoader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "241DDE04-FD87-45EE-B0D7-9ADD33C75513"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/AddressLoader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "241DDE04-FD87-45EE-B0D7-9ADD33C75513 - 93529a5e2e7cba70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WorkersGenerator.DataLoader.load() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/AddressLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "241DDE04-FD87-45EE-B0D7-9ADD33C75513 - 93529a5e2e7cba70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WorkersGenerator.DataLoader.load() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/AddressLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "241DDE04-FD87-45EE-B0D7-9ADD33C75513 - 93529a5e2e7cba70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WorkersGenerator.DataLoader.load() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/AddressLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "241DDE04-FD87-45EE-B0D7-9ADD33C75513 - 93529a5e2e7cba70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WorkersGenerator.DataLoader.load() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/AddressLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "796">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6510F88C-5B57-4414-B0CE-E6723CF702C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/Generator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "createXLSX()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6510F88C-5B57-4414-B0CE-E6723CF702C4 - 9ae09115e41a2e6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkersGenerator.Generator.createXLSX() -&gt; ()"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/Generator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "6510F88C-5B57-4414-B0CE-E6723CF702C4 - 9ae09115e41a2e6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkersGenerator.Generator.createXLSX() -&gt; ()"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/Generator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "536">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0ADC2D61-8CAC-45C6-B4EB-61F7D2BD9C61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/Generator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "createXLSX()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0ADC2D61-8CAC-45C6-B4EB-61F7D2BD9C61 - 9ae09115e41a2f15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkersGenerator.Generator.createXLSX() -&gt; ()"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/Generator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  uuid = "0ADC2D61-8CAC-45C6-B4EB-61F7D2BD9C61 - 9ae09115e41a2f15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkersGenerator.Generator.createXLSX() -&gt; ()"
+                  moduleName = "WorkersGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maus/Documents/Xcode/WorkersGenerator/WorkersGenerator/Models/Generator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2664E119-3797-4DBC-B175-B945D3743BED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/Generator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "setProfs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46F19D69-1667-487E-AB44-89F8783F83DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/Generator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "setProfs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5920CA4-69D2-40FE-8049-1FDF37C18685"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkersGenerator/Models/Generator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "setProfs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

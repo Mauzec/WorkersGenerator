@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Программист</string>
+	<string>Ген. Директор</string>
+	<string>Инженер</string>
+	<string>Медик</string>
+	<string>Секретарь</string>
+	<string>Бухгалтер</string>
+	<string>Менеджер</string>
+	<string>Охранник</string>
+	<string>Уборщица</string>
+	<string>Комендант</string>
+	<string>Системный администратор</string>
+	<string>Главный инженер</string>
+	<string>Администратор нижнего уровня</string>
+	<string>Специалист по взрывам</string>
+	<string>Хирург</string>
+	<string>Главный Хирург</string>
+</array>
+</plist>
