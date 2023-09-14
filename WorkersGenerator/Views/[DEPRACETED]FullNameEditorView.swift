@@ -4,10 +4,10 @@ struct FullNameEditorPercentageSection: View {
     @Binding var value: Double
     
     var name: String
-    
+
     var body: some View {
         HStack {
-            Slider(value: $value, in: 0...100, step: 1) {
+            Slider(value: $value, in: 0 ... 100, step: 1) {
                 Text("\(name) Percentage")
             }
             Spacer()
@@ -20,7 +20,7 @@ struct FullNameEditorView: View {
     @Binding var settingor: Settingor
     @State private var russianPercentage: Double
     @State private var englishPercentage: Double
-    
+
     var body: some View {
         Form {
             Section(header: Text("Setting Percentages")) {
@@ -39,7 +39,7 @@ struct FullNameEditorView: View {
             }
         }
     }
-    
+
     init(settingor: Binding<Settingor>) {
         _settingor = settingor
         _russianPercentage = State(initialValue: settingor.wrappedValue.fullName.russianPercentage)

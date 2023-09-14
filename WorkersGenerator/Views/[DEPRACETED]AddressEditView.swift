@@ -2,17 +2,17 @@ import SwiftUI
 
 struct AddressEditView: View {
     @Binding var settingor: Settingor
-    
+
     @State private var rightMin: String = "1"
     @State private var rightMax: String = "400"
-    
+
     @State private var isWrong: Color = .secondary
-    
+
     var body: some View {
-        VStack{
+        VStack {
             HStack {
                 VStack {
-                    HStack{
+                    HStack {
                         Text("min")
                             .font(.footnote)
                         Spacer()
@@ -24,7 +24,7 @@ struct AddressEditView: View {
                 }
                 Spacer()
                 VStack {
-                    HStack{
+                    HStack {
                         Text("max")
                             .font(.footnote)
                         Spacer()
@@ -34,24 +34,22 @@ struct AddressEditView: View {
                         .border(Color.gray, width: 1)
                         .background(isWrong)
                 }
-           
             }
             .padding()
-            
+
             .onDisappear {
                 settingor.maxAddressNumber = rightMax
                 settingor.minAddressNumber = rightMin
             }
-            
+
             .onChange(of: settingor.minAddressNumber) { _, _ in
                 if let min = Int(settingor.minAddressNumber), let max = Int(settingor.maxAddressNumber) {
                     if min > max {
                         isWrong = .red
                     } else {
-                        
                         rightMax = settingor.maxAddressNumber
                         rightMin = settingor.minAddressNumber
-                        
+
                         isWrong = .secondary
                     }
                 }
@@ -61,21 +59,18 @@ struct AddressEditView: View {
                     if min > max {
                         isWrong = .red
                     } else {
-                        
                         rightMax = settingor.maxAddressNumber
                         rightMin = settingor.minAddressNumber
-                        
+
                         isWrong = .secondary
                     }
-                      
                 }
             }
-            
+
             Spacer()
         }
     }
 }
-
 
 struct AddressEditView_Previews: PreviewProvider {
     static var previews: some View {

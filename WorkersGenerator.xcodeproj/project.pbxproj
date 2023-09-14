@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		551B7E262AA9D29500410CD2 /* AddressEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551B7E252AA9D29500410CD2 /* AddressEditView.swift */; };
-		5527C92A2AA8CC5300D532B8 /* FullNameEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5527C9292AA8CC5300D532B8 /* FullNameEditorView.swift */; };
 		554F9F1B2AADD72C00013CEF /* xlsxwriter in Frameworks */ = {isa = PBXBuildFile; productRef = 554F9F1A2AADD72C00013CEF /* xlsxwriter */; };
 		556F2A892AA8EB7900AB0D37 /* PhoneProviders.plist in Resources */ = {isa = PBXBuildFile; fileRef = 556F2A882AA8EB7900AB0D37 /* PhoneProviders.plist */; };
 		556F2A8B2AA90D4400AB0D37 /* PhoneEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F2A8A2AA90D4400AB0D37 /* PhoneEditorView.swift */; };
@@ -30,7 +28,7 @@
 		55F28A042AA8A68000121C18 /* WorkersGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F28A032AA8A68000121C18 /* WorkersGeneratorUITests.swift */; };
 		55F28A062AA8A68000121C18 /* WorkersGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F28A052AA8A68000121C18 /* WorkersGeneratorUITestsLaunchTests.swift */; };
 		55F28A152AA8A94100121C18 /* Settingor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F28A142AA8A94100121C18 /* Settingor.swift */; };
-		55FF0FDB2AAA548200108571 /* addresses.json in Resources */ = {isa = PBXBuildFile; fileRef = 55FF0FDA2AAA548200108571 /* addresses.json */; };
+		55FF0FDB2AAA548200108571 /* addresses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 55FF0FDA2AAA548200108571 /* addresses.txt */; };
 		55FF0FDD2AAA54C400108571 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF0FDC2AAA54C400108571 /* PersonData.swift */; };
 		55FF0FDF2AAA55A400108571 /* PersonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF0FDE2AAA55A400108571 /* PersonLoader.swift */; };
 /* End PBXBuildFile section */
@@ -53,8 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		551B7E252AA9D29500410CD2 /* AddressEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressEditView.swift; sourceTree = "<group>"; };
-		5527C9292AA8CC5300D532B8 /* FullNameEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNameEditorView.swift; sourceTree = "<group>"; };
+		551B7E252AA9D29500410CD2 /* [DEPRACETED]AddressEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[DEPRACETED]AddressEditView.swift"; sourceTree = "<group>"; };
+		5527C9292AA8CC5300D532B8 /* [DEPRACETED]FullNameEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[DEPRACETED]FullNameEditorView.swift"; sourceTree = "<group>"; };
 		554F9F172AADD10800013CEF /* WorkersGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkersGenerator.entitlements; sourceTree = "<group>"; };
 		554F9F182AADD28800013CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		555B84E82AAB87B4007B85A6 /* surnamesMale.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = surnamesMale.json; sourceTree = "<group>"; };
@@ -80,7 +78,7 @@
 		55F28A032AA8A68000121C18 /* WorkersGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersGeneratorUITests.swift; sourceTree = "<group>"; };
 		55F28A052AA8A68000121C18 /* WorkersGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		55F28A142AA8A94100121C18 /* Settingor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingor.swift; sourceTree = "<group>"; };
-		55FF0FDA2AAA548200108571 /* addresses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addresses.json; sourceTree = "<group>"; };
+		55FF0FDA2AAA548200108571 /* addresses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addresses.txt; sourceTree = "<group>"; };
 		55FF0FDC2AAA54C400108571 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
 		55FF0FDE2AAA55A400108571 /* PersonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				556F2A882AA8EB7900AB0D37 /* PhoneProviders.plist */,
-				55FF0FDA2AAA548200108571 /* addresses.json */,
+				55FF0FDA2AAA548200108571 /* addresses.txt */,
 				555B84E82AAB87B4007B85A6 /* surnamesMale.json */,
 				5588BF302AAB8B9F00AE6A48 /* namesMale.json */,
 				55B79EEE2AABB38300C38B91 /* surnamesFemale.json */,
@@ -198,10 +196,10 @@
 			isa = PBXGroup;
 			children = (
 				55F289EA2AA8A67D00121C18 /* EditorView.swift */,
-				5527C9292AA8CC5300D532B8 /* FullNameEditorView.swift */,
+				5527C9292AA8CC5300D532B8 /* [DEPRACETED]FullNameEditorView.swift */,
 				556F2A8A2AA90D4400AB0D37 /* PhoneEditorView.swift */,
 				556F2A8C2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift */,
-				551B7E252AA9D29500410CD2 /* AddressEditView.swift */,
+				551B7E252AA9D29500410CD2 /* [DEPRACETED]AddressEditView.swift */,
 				5588BF362AAB95AC00AE6A48 /* ProfessionEditorView.swift */,
 				55B79EE22AAB9F5300C38B91 /* EarnEditorView.swift */,
 			);
@@ -312,6 +310,7 @@
 			mainGroup = 55F289DC2AA8A67C00121C18;
 			packageReferences = (
 				554F9F192AADD72C00013CEF /* XCRemoteSwiftPackageReference "xlsxwriter" */,
+				553D756E2AB329F300C284E6 /* XCRemoteSwiftPackageReference "SwiftFormat" */,
 			);
 			productRefGroup = 55F289E62AA8A67D00121C18 /* Products */;
 			projectDirPath = "";
@@ -334,7 +333,7 @@
 				5588BF352AAB8D0700AE6A48 /* namesFemale.json in Resources */,
 				5588BF312AAB8BB200AE6A48 /* surnamesMale.json in Resources */,
 				5588BF322AAB8BB200AE6A48 /* namesMale.json in Resources */,
-				55FF0FDB2AAA548200108571 /* addresses.json in Resources */,
+				55FF0FDB2AAA548200108571 /* addresses.txt in Resources */,
 				55F289F02AA8A68000121C18 /* Preview Assets.xcassets in Resources */,
 				55F289ED2AA8A68000121C18 /* Assets.xcassets in Resources */,
 				5588BF392AAB95ED00AE6A48 /* Professions.plist in Resources */,
@@ -368,10 +367,8 @@
 				556F2A8D2AA9207C00AB0D37 /* TrailingIconLabelStyle.swift in Sources */,
 				55FF0FDF2AAA55A400108571 /* PersonLoader.swift in Sources */,
 				55F28A152AA8A94100121C18 /* Settingor.swift in Sources */,
-				5527C92A2AA8CC5300D532B8 /* FullNameEditorView.swift in Sources */,
 				55FF0FDD2AAA54C400108571 /* PersonData.swift in Sources */,
 				556F2A8B2AA90D4400AB0D37 /* PhoneEditorView.swift in Sources */,
-				551B7E262AA9D29500410CD2 /* AddressEditView.swift in Sources */,
 				55B79EE52AABA6AF00C38B91 /* Generator.swift in Sources */,
 				55B79EE32AAB9F5400C38B91 /* EarnEditorView.swift in Sources */,
 				55F289E92AA8A67D00121C18 /* WorkersGeneratorApp.swift in Sources */,
@@ -469,6 +466,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -525,6 +523,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -535,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = WorkersGenerator/WorkersGenerator.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +544,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorkersGenerator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Generator;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -568,6 +570,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = WorkersGenerator/WorkersGenerator.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +580,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorkersGenerator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Generator;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -714,6 +719,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		553D756E2AB329F300C284E6 /* XCRemoteSwiftPackageReference "SwiftFormat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicklockwood/SwiftFormat";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.3;
+			};
+		};
 		554F9F192AADD72C00013CEF /* XCRemoteSwiftPackageReference "xlsxwriter" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/damuellen/xlsxwriter.swift";

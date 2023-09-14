@@ -9,4 +9,3 @@ struct AddressData: Codable {
         case addresses = "Addresses"
     }
 }
-
